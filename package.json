@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "0.8.x"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/sidorares/vnc-over-gif.git"
@@ -22,6 +25,8 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "rfb2": "0.0.7",
-    "gif": "2.0.2"
+    "gif": "2.0.2",
+    "swig": "0.13.5",
+    "cookie": "0.1.0"
   }
 }
